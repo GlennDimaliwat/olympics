@@ -86,17 +86,18 @@ nav.primary_nav ul {
     display: none;
     position: absolute;  
     list-style:  none;
-    width:600px;
+    width: 50%;
+    min-width: 620px;
     padding: 0;
     margin: 0;
-    left: 200px;
+    left: 150px;
     height: 80px;
 }
 nav.primary_nav ul li {
     position: relative;
     top: 25px;
     flex: auto;
-    flex-wrap: wrap;
+    flex: wrap;
     height: 80px;
 }
 nav.primary_nav ul li a {
@@ -247,6 +248,7 @@ img.toyota_logo {
 @media (min-width: 1173px) {
     nav.primary_nav ul {
         display: flex;
+        justify-content: space-evenly;
     }
     div.hashtag h2 i {
         display: none;
