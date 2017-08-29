@@ -17,7 +17,7 @@ html {
     color: white;
 }
 
-/* Banner */
+/* VIdeo Banner */
 div.video-container {
     position: absolute;
     width: 100%;
@@ -27,7 +27,6 @@ div.video-container {
     background-color: rgb(199,0,37);
     border-radius: 100%;
 }
-
 video.banner-video {
     width: 100%;
     left: 0;
@@ -77,6 +76,10 @@ div.hashtag h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 100;
     font-size: 30px;
+    color: rgb(199,0,37);
+}
+div.hashtag h2 a {
+    text-decoration: none;
     color: rgb(199,0,37);
 }
 
